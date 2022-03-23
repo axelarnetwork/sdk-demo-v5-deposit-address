@@ -10,13 +10,6 @@ Refer to [axelarjs-sdk](https://github.com/axelarnetwork/axelarjs-sdk) for code 
 
 # What the user sees
 
-## Prerequisites
-
-Configure your Metamask as per [Set up Metamask for EVM chains | Axelar Docs](https://docs.axelar.dev/roles/user/metamask):
-
-- Add Avalanche testnet to your "networks"
-- Import the Axlear ERC20 token to your "assets" for Avalanche
-
 ## Run the demo
 
 Clone this repo, install axelarjs-sdk, and run the server
@@ -27,10 +20,11 @@ cd sdk-demo-v5-deposit-address
 npm install
 npm start
 ```
+Your browser should open automatically to URL `http://localhost:3000/` and display the following
 
-Click the text "Click here to generate a link address..." in the demo. Metamask will appear again, asking you to sign a one-time code.
+![deposit-address-demo welcome screen](src/deposit-address-demo-welcome.png)
 
-After a few seconds you should see the following
+Click the "Generate" button in the demo. After a few seconds you should see the following
 
 ![deposit-address-demo example address](src/deposit-address-demo-address.png)
 
